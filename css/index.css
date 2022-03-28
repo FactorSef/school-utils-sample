@@ -1,0 +1,19 @@
+.btn {
+  color: green;
+  height: 24px;
+}
+.btn > .btn-primary {
+  color: blue;
+  background-color: ghostwhite;
+}
+
+* {
+  color: red;
+}
+
+p {
+  margin-bottom: 100px;
+}
+p.no-offset {
+  margin-bottom: 0;
+}

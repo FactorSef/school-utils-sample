@@ -1,0 +1,13 @@
+@import '../colors';
+
+* {
+    color: $text-color;
+}
+
+p {
+    margin-bottom: 100px;
+
+    &.no-offset {
+        margin-bottom: 0;
+    }
+}
