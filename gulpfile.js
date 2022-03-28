@@ -11,5 +11,5 @@ gulp.task('styles', () => {
 })
 
 gulp.task('watch', () => {
-    return gulp.watch('./**/*', gulp.series('styles'))
+    return gulp.watch('./scss/**/*.scss', gulp.series('styles'))
 });
